@@ -1,0 +1,44 @@
+#navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar .container-fluid .navbar-brand {
+    color: white;
+}
+
+.form-control::placeholder {
+    color: green;
+}
+
+.navbar-brand img {
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#carouselExample .carousel-inner .carousel-item img {
+    max-height: 500px;
+    width: auto;
+}
+
+@media  only screen and (max-width: 768px) {
+    #carouselExample .carousel-inner .carousel-item img {
+        height: 400px;
+        width: auto;
+    }
+
+}
+
+#carouselExample .carousel-inner .carousel-item .carousel-caption {
+    background: rgb(11, 11, 11, 0.6);
+    color: white;
+}
+
+header .navbar .navbar-toggler {
+    border: solid 1px rgb(200, 200, 200);
+    background-color: aliceblue;
+}
+
+header .navbar .navbar-toggler .navbar-toggler-icon {
+    color: aliceblue;
+}
